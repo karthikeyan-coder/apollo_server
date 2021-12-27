@@ -15,4 +15,4 @@ libraries used
     
     go to localhost:4000 it will redirect to apollostudio 
     
-    ![This is an image](/assets/images/readme.png)
+    ![This is an image](https://github.com/karthiktrp/apollo_server_graphql_yoga/blob/main/assets/readme.png)
