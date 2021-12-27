@@ -1,8 +1,9 @@
 import mongoose from 'mongoose';
-  const { Schema } = mongoose;
+  // const { Schema } = mongoose;
 
-  export const schema = new Schema({
-      title:String,
-      book:String
+  const schema = new mongoose.Schema({
+      Title:String,
+      Author:String
   })
 
+  export const bookmodel = mongoose.model('Books',schema)
